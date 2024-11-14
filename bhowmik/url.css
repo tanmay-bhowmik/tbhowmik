@@ -1,0 +1,178 @@
+* {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+BODY {
+	LINE-HEIGHT: 18px; FONT-FAMILY: "trebuchet ms", helvetica, sans-serif; BACKGROUND: url(images/background.gif) #f9f9f7 repeat-x; COLOR: #3B170B; FONT-SIZE: 13px
+}
+A {
+	COLOR: #ff7800; TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+SUP {
+	FONT-SIZE: 0.5em
+}
+P {
+	TEXT-ALIGN: justify; MARGIN-BOTTOM: 14px
+}
+UL.linklist {
+	LIST-STYLE-TYPE: none; LIST-STYLE-IMAGE: none
+}
+UL.linklist LI {
+	MARGIN: 5px 0px 0px; BORDER-TOP: #eeeeee 1px solid; PADDING-TOP: 5px
+}
+UL.linklist LI.first {
+	MARGIN-TOP: 0px; BORDER-TOP: 0px; PADDING-TOP: 0px
+}
+#upbg {
+	Z-INDEX: 1; POSITION: absolute; WIDTH: 747px; BACKGROUND: url(images/upbg.gif) #fff no-repeat; HEIGHT: 264px; TOP: 0px; LEFT: 0px
+}
+#outer {
+	POSITION: relative; MARGIN: 0px auto; WIDTH: 747px; BACKGROUND: url(images/abg.gif) #fff repeat-y
+}
+#inner {
+	Z-INDEX: 2; POSITION: relative; PADDING-BOTTOM: 13px; PADDING-LEFT: 30px; PADDING-RIGHT: 30px; PADDING-TOP: 13px
+}
+#header {
+	POSITION: absolute; PADDING-LEFT: 20px; WIDTH: 202px; BACKGROUND: url(images/header.gif) #33cccc repeat-x; HEIGHT: 50px; COLOR: #fff
+}
+#header SPAN {
+	FONT-WEIGHT: normal
+}
+#header H1 {
+	POSITION: absolute; LINE-HEIGHT: 20px; LETTER-SPACING: -1px; HEIGHT: 92px; FONT-SIZE: 23px; TOP: 15px
+}
+#header H2 {
+	POSITION: absolute; COLOR: #fce2ca; FONT-SIZE: 10px; TOP: 51px; FONT-WEIGHT: normal
+}
+#header SUP {
+	COLOR: #fce2ca
+}
+#splash {
+	POSITION: absolute; WIDTH: 458px; BACKGROUND: url(images/headerpic.jpg) #eaeae2 no-repeat; HEIGHT: 92px; RIGHT: 30px
+}
+#menu {
+	POSITION: relative; PADDING-BOTTOM: 0px; MARGIN: 98px 0px 20px; PADDING-LEFT: 5px; PADDING-RIGHT: 20px; BACKGROUND: url(images/menu.gif) #292956 repeat-x; HEIGHT: 67px; PADDING-TOP: 0px
+}
+#menu UL {
+	
+}
+#menu UL LI {
+	LINE-HEIGHT: 52px; PADDING-LEFT: 3px; DISPLAY: inline
+}
+#menu UL LI.first {
+	BORDER-LEFT: 0px
+}
+#menu UL LI A {
+	PADDING-BOTTOM: 8px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 12px; PADDING-RIGHT: 12px; BACKGROUND-REPEAT: repeat-x; COLOR: #fff; FONT-SIZE: 12px; FONT-WEIGHT: bold; PADDING-TOP: 8px
+}
+#menu UL LI A:hover {
+	BACKGROUND: url(images/hover.gif) #fff repeat-x 50% top; COLOR: #4a4a24; TEXT-DECORATION: none
+}
+#secondarycontent {
+	POSITION: relative; WIDTH: 150px; FLOAT: left
+}
+#secondarycontent H3 {
+	POSITION: relative; PADDING-BOTTOM: 10px; LINE-HEIGHT: 25px; PADDING-LEFT: 10px; PADDING-RIGHT: 0px; MARGIN-BOTTOM: 10px; BACKGROUND: url(images/a22.gif) repeat-x 50% bottom; LETTER-SPACING: -1px; COLOR: #656551; FONT-SIZE: 16px; TOP: 4px; PADDING-TOP: 0px
+}
+#secondarycontent .content {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; MARGIN-BOTTOM: 20px; PADDING-TOP: 0px
+}
+#primarycontent {
+	POSITION: relative; WIDTH: 510px; FLOAT: right
+}
+#primarycontent A {
+	COLOR: #96853a
+}
+#primarycontent H3 {
+	POSITION: relative; PADDING-BOTTOM: 10px; LINE-HEIGHT: 25px; PADDING-LEFT: 15px; PADDING-RIGHT: 0px; MARGIN-BOTTOM: 20px; BACKGROUND: url(images/a22.gif) repeat-x 50% bottom; LETTER-SPACING: -1px; COLOR: #656551; FONT-SIZE: 18px; TOP: 4px; PADDING-TOP: 0px
+}
+#primarycontent .content {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; MARGIN-BOTTOM: 20px; PADDING-TOP: 0px
+}
+#primarycontent .contentHonors {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 35px; PADDING-RIGHT: 15px; MARGIN-BOTTOM: 20px; PADDING-TOP: 0px
+}
+#primarycontent .post {
+	MARGIN-BOTTOM: 10px
+}
+#primarycontent .post .header {
+	POSITION: relative
+}
+#primarycontent .post .date {
+	POSITION: absolute; LINE-HEIGHT: 35px; COLOR: #afafa4; TOP: 0px; RIGHT: 15px; FONT-WEIGHT: bold
+}
+#primarycontent .post .content {
+	MARGIN-BOTTOM: 0px
+}
+#primarycontent .post .footer {
+	POSITION: relative; BACKGROUND: url(images/a33.gif) repeat-x; HEIGHT: 64px; TOP: -10px
+}
+#primarycontent .post .footer UL {
+	POSITION: absolute; LIST-STYLE-TYPE: none; BOTTOM: 15px; RIGHT: 15px; LIST-STYLE-IMAGE: none
+}
+#primarycontent .post .footer UL LI {
+	LINE-HEIGHT: 14px; PADDING-LEFT: 17px; DISPLAY: inline; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 0px 2px; MARGIN-LEFT: 25px
+}
+#fullcontent {
+	POSITION: relative; WIDTH: 660px; FLOAT: right
+}
+#fullcontent A {
+	COLOR: #96853a
+}
+#fullcontent H3 {
+	POSITION: relative; PADDING-BOTTOM: 10px; LINE-HEIGHT: 10px; PADDING-LEFT: 15px; PADDING-RIGHT: 0px; MARGIN-BOTTOM: 10px; BACKGROUND: url(images/a22.gif) repeat-x 50% bottom; LETTER-SPACING: -1px; COLOR: #656551; FONT-SIZE: 18px; TOP: 4px; PADDING-TOP: 0px
+}
+#fullcontent H2 {
+	POSITION: relative; PADDING-BOTTOM: 10px; LINE-HEIGHT: 25px; PADDING-LEFT: 10px; PADDING-RIGHT: 0px; LETTER-SPACING: -1px; COLOR: #292956; FONT-SIZE: 15px; TOP: 4px; PADDING-TOP: 15px
+}
+#fullcontent .content {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; MARGIN-BOTTOM: 10px; PADDING-TOP: 0px
+}
+#fullcontent .post {
+	MARGIN-BOTTOM: 10px
+}
+#fullcontent .post .header {
+	POSITION: relative
+}
+#fullcontent .post .author {
+	POSITION: absolute; LINE-HEIGHT: 35px; COLOR: #3B170B; TOP: 30px; RIGHT: 15px; FONT-WEIGHT: bold
+}
+#fullcontent .post .content {
+	MARGIN-BOTTOM: 0px
+}
+#fullcontent .post .footer {
+	POSITION: relative; BACKGROUND: url(images/a33.gif) repeat-x; HEIGHT: 64px; TOP: -10px
+}
+#fullcontent .post .footer UL {
+	POSITION: absolute; LIST-STYLE-TYPE: none; BOTTOM: 15px; RIGHT: 15px; LIST-STYLE-IMAGE: none
+}Peter Bryce Blvd, Tuscaloosa, AL
+#fullcontent .post .footer UL LI {
+	LINE-HEIGHT: 14px; PADDING-LEFT: 17px; DISPLAY: inline; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 0px 2px; MARGIN-LEFT: 25px
+}
+#footer {
+	BACKGROUND-IMAGE: url(images/footer.gif); POSITION: relative; TEXT-ALIGN: center; LINE-HEIGHT: 20px; HEIGHT: 66px; COLOR: #a8a88d; CLEAR: both
+}
+#footer A {
+	COLOR: #8c8c73
+}
+
+
+
+
+figure.wrap {
+  float: left; /* Makes the figure float to the left, causing text to wrap around it */
+  margin: 0 15px 15px 0; /* Adds space around the figure */
+  width: 120px; /* Defines the width of the image */
+}
+
+figure img {
+  max-width: 100%; /* Ensures the image is responsive */
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+  font-size: 0.9em;
+}
